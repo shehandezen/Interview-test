@@ -28,4 +28,4 @@ def haversine(lat1, lon1, lat2, lon2):
 https://nearest-location-finder.onrender.com/location/{Latitude}/{Longitude}
 ```
 
-[API Link Here](https://nearest-location-finder.onrender.com/location)
+[API Link Here](https://nearest-location-finder.onrender.com/location/6/79)
