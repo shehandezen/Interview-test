@@ -24,7 +24,7 @@ def haversine(lat1, lon1, lat2, lon2):
 
 ## API Endpoint Format
 
-```javascript
+```
 https://nearest-location-finder.onrender.com/location/{Latitude}/{Longitude}
 ```
 
