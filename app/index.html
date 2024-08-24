@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+    <title>Nearest Location Finder | shehandezen</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="brand">
+            🗺 Nearest Location Finder 🗺</div>
+        <div class="input-box">
+            <div class="input-group">
+                <div class="label">Latitude</div>
+                <input type="number" required />
+            </div>
+            <div class="input-group">
+                <div class="label">Longitude</div>
+                <input type="number" required />
+            </div>
+            <div class="input-group">
+                <button id="find"> 🔍 Find</button>
+            </div>
+        </div>
+        <div class="result-box">
+           
+            <div class="title">Search result Here 👇👇👇</div>
+            <p id="location"> </p>
+            <p id="distance"> </p>
+            <p id="country"> </p>
+            <p id="lat"> </p>
+            <p id="lon"> </p>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

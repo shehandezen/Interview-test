@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    transition: 0.5s;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.app{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+}
+
+.app .brand{
+    position: relative;
+    margin-top: 50px;
+    font-size: 45px;
+    font-weight: 800;
+    -webkit-text-stroke: 1.5px #fff;
+    color: transparent;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.app .input-box, .result-box{
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: 20px 0px;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255,255,255,0.4);
+    border-radius: 15px;
+    border-bottom: 0.5px solid rgba(255,255,255,0.8);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.result-box{
+    /* visibility: hidden; */
+
+}
+
+.app .input-box .input-group{
+    position: relative;
+    width: 80%;
+    max-width: 300px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+
+.app .input-box .input-group .label{
+    position: relative;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+}
+
+.app .input-box .input-group input{
+    position: relative;
+    width: 100%;
+    padding: 5px 8px;
+    background: transparent;
+    border: 2.5px solid;
+    /* border: none; */
+    border-color: transparent transparent #ee2a7b transparent;
+   outline: none;
+    cursor: auto;
+    color: #fff;
+}
+
+.app .input-box .input-group button{
+ position: relative;
+ width: 100%;
+ padding: 10px 8px;
+ font-size: 16px;
+ letter-spacing: 0.5px;
+ border:1px solid transparent;
+ border-radius: 15px;
+ cursor: pointer;
+ color: #fff;
+ background:  #ee2a7b ;
+}
+
+.app .input-box .input-group button:hover{
+    color: #fff;
+    border:1px solid #fff;
+    background: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(-5px);
+
+}
+
+.app .input-box .input-group input:focus{
+    border-color: transparent transparent #f9ce34 transparent;
+}
+
+.app .result-box .title {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.app .result-box p{
+    font-size: 16px;
+    color: #fffffe;
+    font-weight: 600;
+}
