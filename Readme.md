@@ -9,7 +9,7 @@ The formula is derived from the law of haversines, which relates the sides and a
 
 ![The haversine Formula](https://github.com/shehandezen/Nearest-location-finder/blob/main/formula.PNG?raw=true)
 
-```
+ ```python 
 # calculate the distance
 def haversine(lat1, lon1, lat2, lon2):
     R = 6371  # Radius of Earth in kilometers
@@ -21,5 +21,11 @@ def haversine(lat1, lon1, lat2, lon2):
 ```
 
 [Live App Here](https://nearest-location-finder-1.onrender.com)
+
+## API Endpoint Format
+
+```javascript
+https://nearest-location-finder.onrender.com/location/{Latitude}/{Longitude}
+```
 
 [API Link Here](https://nearest-location-finder.onrender.com/location)
